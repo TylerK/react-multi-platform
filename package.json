@@ -4,7 +4,8 @@
   "description": "Shared React &amp; React-Native codebase for use on the web, Electron (OSX/Win/Linux), iOS, and Android.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist",
+    "webpack:dev": "npm run clean && webpack-dev-server"
   },
   "repository": {
     "type": "git",
