@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
-    "webpack:dev": "npm run clean && webpack-dev-server"
+    "webpack:dev": "npm run clean && webpack-dev-server",
+    "start": "npm run webpack:dev",
+    "test": "node ./node_modules/karma/bin/karma start",
+    "server": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.dev.js --content-base ./dist/ --port 8080 --inline --hot --progress"
   },
   "repository": {
     "type": "git",
@@ -33,6 +36,8 @@
     "eslint": "^1.9.0",
     "eslint-config-airbnb": "^0.1.0",
     "eslint-plugin-react": "^3.7.1",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.2",
     "json-loader": "^0.5.3",
     "karma": "^0.13.15",
     "karma-chai": "^0.1.0",

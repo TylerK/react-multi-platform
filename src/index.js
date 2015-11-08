@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Render } from 'react-dom';
+import ReactDom from 'react-dom';
 
 class HelloWorld extends React.Component {
   render() {
@@ -10,4 +10,4 @@ class HelloWorld extends React.Component {
   }
 }
 
-Render(React.createElement(HelloWorld), document.getElementById('app'));
+ReactDom.render(React.createElement(HelloWorld), document.getElementById('app'));

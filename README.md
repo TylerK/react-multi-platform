@@ -8,8 +8,8 @@ Shared React &amp; React-Native codebase for use on the web, Electron (OSX\Win\L
 
 ## Other Tools
 * **Builds**: Webpack & Gulp
-* **Testing**: Karma, Jest, and PhantomJS
-* **Styling**: PostCSS with CSSNext
+* **Testing**: Karma, Mocha, Chai, Sinon, and PhantomJS
+* **Styling**: CSSModules, PostCSS, CSSNext
 * **Data Handling & State Management**: Redux
 
 ## Getting Started
@@ -30,4 +30,7 @@ This will do the following:
     * TODO: look into this
 
 ## Deploying
-TODO: Write this.
+```
+npm run deploy
+```
+
