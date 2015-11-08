@@ -1,3 +1,0 @@
-//
-// Base Karma Configuration Settings
-//

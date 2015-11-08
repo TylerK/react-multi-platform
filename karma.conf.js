@@ -1,2 +1,2 @@
 require('babel-core/register');
-module.exports = require('./__build__/karma');
+module.exports = require('./__config__/karma');
