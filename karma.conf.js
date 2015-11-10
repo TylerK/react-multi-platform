@@ -4,7 +4,7 @@
 var webpack = require('webpack');
 var config = require('./configs');
 
-var allTests = config.get('SRC') + '/**/__tests__/**/*.test.js';
+var allTests = config.SRC + '/**/__tests__/**/*.test.js';
 var entryPoint = '../karma.entry.js';
 
 module.exports = function(_config) {

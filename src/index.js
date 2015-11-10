@@ -1,12 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import App from './layouts/main';
 
-class HelloWorld extends React.Component {
-  render() {
-    return (
-      <h1>Hello, World!</h1>
-    );
-  }
-}
-
-ReactDom.render(React.createElement(HelloWorld), document.getElementById('app'));
+const elem = document.getElementById('app')
+ReactDom.render(React.createElement(App), elem);

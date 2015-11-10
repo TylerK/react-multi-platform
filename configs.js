@@ -17,11 +17,6 @@ var config = {
     'redux-devtools',
     'redux-devtools/lib/react'
   ]
-}
-
-//
-// DO NOT EDIT BELOW THIS LINE
-// --------------------------------------------------------
-// config.set('PUBLIC_PATH', `http://${config.get('DEV_HOST')}:${config.get('DEV_PORT')}/`);
+};
 
 module.exports = config;
