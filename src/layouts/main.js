@@ -1,9 +1,9 @@
-import React from 'react'
+import { Component } from 'react'
+import Todo from '../containers/todo/todo';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <h1>Hello, World!</h1>
-    );
+export default class App extends Component {
+  render () {
+    return Todo.call(this, this.props, this.state);
   }
 }
+
