@@ -16,21 +16,19 @@ Shared React &amp; React-Native codebase for use on the web, Electron (OSX\Win\L
 ```
 git clone https://github.com/TylerK/react-multi-platform.git
 npm install
+```
+
+#### Web:
+```
 npm start
+http://localhost:8080
 ```
 
-This will do the following:
-* Install all necessary dependencies
-* Spin up `webpack-dev-server` for hot module reloading
-* Launch a browser to `localhost:8080`
-* Launch Electron with devtools open
-* Build the .xcodeproj file 
-    * TODO: Is there a way to launch this automatically? 
-* Build the Android file(s) 
-    * TODO: look into this
+#### IOS:
+Load `./ios/iosApp.xcodeproj` in Xcode
 
-## Deploying
-```
-npm run deploy
-```
+#### Android:
+TODO
 
+#### Electron:
+With `npm start` running, execute `electron ./desktop` in the root of the project. 
