@@ -1,9 +1,9 @@
+import { Component } from 'react';
+import Render from './todoRender';
 
-import React from 'react';
-import styles from './todo.styles';
-
-export default function () {
-  return (
-    <h1 style={styles.text}>Hello, world!</h1>
-  );
+export default class App extends Component {
+  render () {
+    return Todo.call(this, this.props, this.state);
+  }
 }
+

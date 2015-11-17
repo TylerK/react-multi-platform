@@ -10,7 +10,7 @@ module.exports = {
   devtool: 'source-map',
 
   entry: [
-    config.SRC + '/index.js'
+    './index.js'
   ],
 
   output: {
@@ -38,6 +38,11 @@ module.exports = {
         test: /\.js/,
         exclude: /node_modules|dist/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.css/,
+        exclude: /node_modules|dist/,
+        loader: 'style-loader!css-loader'
       }
     ]
   }
