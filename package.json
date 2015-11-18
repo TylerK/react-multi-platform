@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "clean": "rm -rf dist",
+    "electron:dev": "./node_modules/.bin/electron ./desktop",
     "package:ios": "react-native bundle --entry-file ./src/index.ios.js --platform ios --bundle-output ./ios/main.jsbundle",
     "webpack:dev": "npm run clean && webpack-dev-server",
     "start": "npm run webpack:dev",
