@@ -40,7 +40,7 @@ $ npm run webpack:dev
 - Open up http://localhost:8080 in your browser
 ```
 
-## IOS:
+## iOS:
 ```
 $ react-native start
 
