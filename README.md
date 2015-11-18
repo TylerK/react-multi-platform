@@ -22,9 +22,9 @@ Shared React &amp; React-Native codebase for use on the web, Desktop, iOS, and A
 Note: Would love someone with Linux to let me know how it's working over there. 
 
 ## Other Tools
-* **Builds**: Webpack & Gulp
+* **Builds**: Webpack (Perhaps Gulp at a later point)
 * **Testing**: Karma, Mocha, Chai, Sinon, and PhantomJS
-* **Styling**: CSSModules, PostCSS, CSSNext
+* **Styling**: Currently just JS as CSS for mobile, CSSNext for web. 
 * **Data Handling & State Management**: Redux
 
 ## Getting Started
@@ -33,14 +33,14 @@ git clone https://github.com/TylerK/react-multi-platform.git
 $ npm install
 ```
 
-#### Web:
+## Web:
 ```
 $ npm run webpack:dev
 
 - Open up http://localhost:8080 in your browser
 ```
 
-#### IOS:
+## IOS:
 ```
 $ react-native start
 
@@ -49,7 +49,7 @@ $ react-native start
 - Push run
 ```
 
-#### Android:
+## Android:
 This one is more complicated than iOS. I highly suggest following the directions on the official react-native docs on how to get this setup properly.
 
 Once you're up and running with an Android emulator or connected device:
@@ -60,9 +60,18 @@ $ react-native run-android
 
 Note: The above command will trigger the default React-Native JS compiler if it's not already running via `$ react-native start`
 
-#### Electron:
+## Electron:
 ```
 With webpack dev server running:
 
 $ npm run electron:dev 
 ```
+
+## Unit tests:
+`$ npm test` will look for and run tests from all files suffixed with `.test.js` in the `./src` directory. 
+
+## TODO's:
+* [ ] Finish building the TODO app on top of this stack. #irony 
+* [ ] Write more robust tests for testing purposes. 
+* [ ] Demo videos, links.
+* [ ] Write up all associated docs.
