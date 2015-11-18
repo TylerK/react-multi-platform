@@ -1,20 +1,15 @@
-import Todo from '../containers/todo/todo'
-
 import React, {
   StyleSheet,
   View
 } from 'react-native';
 
+import Todo from '../containers/todo/todo';
+import Styles from './main.styles';
+
 export default function () {
   return (
-    <View styles={Styles.container}>
+    <View style={Styles.container}>
       <Todo />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  layout: {
-    flex: 1
-  }
-})

@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './todo.styles';
+import Styles from './todo.styles';
 
 export default function () {
   return (
-    <h1 style={styles.text}>Hello, world!</h1>
+    <h1 style={Styles.text}>Hello, world!</h1>
   );
 }
