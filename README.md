@@ -1,18 +1,25 @@
 # WIP
-This repo is currently under active development and is prone to not quite working 100%. Docs may or may not be updated :]
+This repo is currently under active development and is prone to not quite working 100%. Docs may or may not be updated.
 
-Apologies for the dust.
+Apologies for the dust. Pull requests\issues\et. al. are extremely welcomed :]
 
 ## Current issues
-React 0.14 and above will not play nicely with React
+React-Native 0.14.0 and above is not currently playing nicely with React in the same project as evidenced by: 
+
+* React-Native [#4022](https://github.com/facebook/react-native/issues/4022)
+* React-Native [#2985](https://github.com/facebook/react-native/issues/2985)
+
+React-Native 0.13.2 is being utilized until there is a resolution or work around. Upgrade at your own risk. 
 
 ## Overview
-Shared React &amp; React-Native codebase for use on the web, Electron (OSX\Win\Linux), iOS, and Android.  
+Shared React &amp; React-Native codebase for use on the web, Desktop, iOS, and Android.  
 
 ## Supported Platforms
-* **Web:** React
-* **iOS & Android:** React-Native
-* **OSX & Windows:** Electron
+* **Web:** Via React
+* **iOS & Android:** Via React-Native
+* **OSX & Windows:** Via Electron
+
+Note: Would love someone with Linux to let me know how it's working over there. 
 
 ## Other Tools
 * **Builds**: Webpack & Gulp
