@@ -1,5 +1,6 @@
-import { Component } from 'react';
 import Render from './mainRender';
+
+import { Component } from 'react';
 
 export default class App extends Component {
   render () {

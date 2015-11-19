@@ -6,4 +6,4 @@ import {
 
 import App from './src/layouts/main';
 
-AppRegistry.registerComponent('iosApp', () => App);
+AppRegistry.registerComponent('ReactMultiPlatform', () => App);
